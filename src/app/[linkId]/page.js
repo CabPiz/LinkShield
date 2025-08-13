@@ -14,7 +14,7 @@ export default function Home() {
     useEffect(() => { 
         setMessage("Buscando dados do link...aguarde...");
         getLink(params.linkId)
-            then.(link => {
+            .then(link => {
                 setMessage("");
                 if(link.url)
                     window.location.href = link.url
