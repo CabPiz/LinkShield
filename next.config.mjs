@@ -1,4 +1,9 @@
 /** @type {import('next').NextConfig} */
-const nextConfig = {};
-
-export default nextConfig;
+const nextConfig = {
+    output: 'export',
+    basePath: '/LinkShield',
+    assetPrefix: '/LinkShield/',
+  };
+  
+  export default nextConfig;
+  
